@@ -5,5 +5,8 @@ Detailler les nouveaux dossier :
 show remote 
 	git remote -v
 
+change remote url
+	git remote set-url origin https://github.com/USERNAME/REPOSITORY.git	
+
 push all branches
 	git push origin --all
