@@ -1,0 +1,12 @@
+    $product = $this->getDoctrine()
+        ->getRepository(Product::class)
+        ->find($productId);
+
+    if (!$product) {
+        throw $this->createNotFoundException(
+            'No product found for id '.$productId
+        );
+    }
+
+Lang bootsnip add remove
+https://bootsnipp.com/snippets/VPRlZ    

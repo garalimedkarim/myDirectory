@@ -1,0 +1,9 @@
+
+Detailler les nouveaux dossier :
+	git status -u 
+	
+show remote 
+	git remote -v
+
+push all branches
+	git push origin --all
